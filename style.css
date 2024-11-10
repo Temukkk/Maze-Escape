@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Indie+Flower&display=swap');
+/* General Body Styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    flex-direction: column;
+  }
+  
+  /* Canvas Styling */
+  canvas {
+    border: 2px solid #333;
+    background-color: #fff;
+    margin-top: 20px;
+  }
+  
+  /* Modal Styling */
+  #winModal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  #winModal.show {
+    display: flex;
+  }
+  
+  /* Modal Content */
+  .modalContent {
+    background: #333;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    width: 300px;
+  }
+  
+  .modalContent h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .modalContent button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .modalContent button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Game Text Instructions */
+  .gameText {
+    position: absolute;
+    top: 10px;
+    font-size: 30px;
+    font-family: 'Atma', sans-serif;
+  }
+  
+  .gameText p {
+    margin: 0;
+    padding: 10px;
+    color: #333;
+  }
+  
