@@ -1,2 +1,3 @@
 # Maze-Escape
-random generating maze escaping game
+Game by: Temuk
+Github: Temukkk
